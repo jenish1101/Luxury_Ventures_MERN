@@ -1,0 +1,98 @@
+/* BookNow.css */
+.book-now-page {
+  padding: 20px;
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+.book-now-page h3 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.book-now-page form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.book-now-page label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.book-now-page input[type="text"],
+.book-now-page input[type="email"],
+.book-now-page input[type="tel"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.book-now-page input[type="text"]:read-only {
+  background-color: #e9ecef;
+}
+
+.book-now-page button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.book-now-page button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+#booknow-container{
+  border: 2px solid black;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  padding: 40px;
+  margin: 100px 0px;
+} 
+
+.book-now-page .payment-button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.book-now-page .payment-button:hover {
+  background-color: #218838;
+}
+
+.qr-code-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.qr-code-container h4 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.qr-code-container .qr-code {
+  max-width: 200px;
+  height: auto;
+}
+
+.book-now-page input[type="date"],
+.book-now-page input[type="number"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+}

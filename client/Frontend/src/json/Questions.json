@@ -1,0 +1,83 @@
+[
+    {
+      "_id": "67a42fa63f4285c58c58e443",
+      "name": "Jenish",
+      "email": "jgondaliya28@gmail.com",
+      "msg": "What payment methods do you accept?",
+      "__v": 0,
+      "answer": "We accept credit/debit cards, UPI, and net banking."
+    },
+    {
+      "_id": "67a42fa63f4285c58c58e444",
+      "name": "Priya",
+      "email": "priya.kumar@gmail.com",
+      "msg": "Can I cancel my booking?",
+      "__v": 0,
+      "answer": "Yes, cancellations are allowed up to 24 hours before check-in."
+    },
+    {
+      "_id": "67a42fa63f4285c58c58e445",
+      "name": "Amit",
+      "email": "amitverma@gmail.com",
+      "msg": "Are pets allowed in the villas?",
+      "__v": 0,
+      "answer": "Some villas allow pets. Please check villa details before booking."
+    },
+    {
+      "_id": "67a42fa63f4285c58c58e446",
+      "name": "Sneha",
+      "email": "sneha.mehta@gmail.com",
+      "msg": "Do you provide food services?",
+      "__v": 0,
+      "answer": "Yes, some villas offer in-house dining or have nearby restaurants."
+    },
+    {
+      "_id": "67a42fa63f4285c58c58e447",
+      "name": "Vikas",
+      "email": "vikas.patil@gmail.com",
+      "msg": "Is parking available?",
+      "__v": 0,
+      "answer": "Yes, all our villas have free parking facilities."
+    },
+    {
+      "_id": "67a42fa63f4285c58c58e448",
+      "name": "Anjali",
+      "email": "anjali.sharma@gmail.com",
+      "msg": "Do you offer discounts for long stays?",
+      "__v": 0,
+      "answer": "Yes, we offer special discounts for extended stays. Contact support for details."
+    },
+    {
+      "_id": "67a42fa63f4285c58c58e449",
+      "name": "Jenish",
+      "email": "jgondaliya28@gmail.com",
+      "msg": "Is there WiFi in the villas?",
+      "__v": 0,
+      "answer": "Yes, all villas are equipped with high-speed WiFi."
+    },
+    {
+      "_id": "67a42fa63f4285c58c58e450",
+      "name": "Kavya",
+      "email": "kavya.rao@gmail.com",
+      "msg": "What is the check-in and check-out time?",
+      "__v": 0,
+      "answer": "Check-in is at 2 PM, and check-out is at 11 AM."
+    },
+    {
+      "_id": "67a42fa63f4285c58c58e451",
+      "name": "Harsh",
+      "email": "harsh.kapoor@gmail.com",
+      "msg": "Can I request extra beds?",
+      "__v": 0,
+      "answer": "Yes, extra beds can be provided upon request for an additional charge."
+    },
+    {
+      "_id": "67a42fa63f4285c58c58e452",
+      "name": "Meera",
+      "email": "meera.nair@gmail.com",
+      "msg": "How can I contact customer support?",
+      "__v": 0,
+      "answer": "You can contact us via our website chat or call our helpline at +91-9876543210."
+    }
+  ]
+  

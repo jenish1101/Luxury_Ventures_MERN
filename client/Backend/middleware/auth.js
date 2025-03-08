@@ -1,6 +1,6 @@
 const jwt = require("jsonwebtoken"); //For Authentication
 
-//For Verify AccessToken (If User Have A Access Token Than It's Comform he is Valid User)
+//For Verify AccessToken (If User Have A Access Token Than he is Valid User)
 const verifyAccessToken = async (req, res, next) => {
     try {
   

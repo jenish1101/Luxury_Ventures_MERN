@@ -1,0 +1,86 @@
+.image-container {
+  position: relative;
+  width: 100%;
+  margin-top: 75px;
+  margin-bottom: 5px;
+}
+
+.image {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.image img {
+  width: 100%;
+  height: 750px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.overlay h1 {
+  font-size: 3rem;
+  margin: 0;
+  font-weight: bold;
+  color: #7FFFD4;
+}
+
+.overlay p {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  color: #7F7F7F;
+}
+
+/* Animation for title */
+.animate-title {
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: fadeInDown 1.5s ease-out forwards;
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Animation for subtitle */
+.animate-subtitle {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1.5s ease-out forwards;
+  animation-delay: 0.5s; /* Adds a delay for subtitle */
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

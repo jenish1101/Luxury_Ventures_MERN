@@ -1,0 +1,131 @@
+/* General page layout */
+
+.your-booking-page {
+  padding: 100px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Container for the bookings list */
+.list-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /* grid-gap: 30px; */
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Individual booking item */
+.booking-item {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  margin: 20px;
+  width: 75%;
+}
+
+/* Hover effect */
+.booking-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Headings and Titles */
+h1 {
+  color: #333;
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #2c3e50;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 5px;
+}
+
+/* Booking Details Styling */
+.booking-details p {
+  font-size: 1rem;
+  color: #555;
+  margin: 5px 0;
+}
+
+.booking-details p strong {
+  color: #3498db;
+}
+
+/* Payment status styling */
+.paid {
+  color: green;
+  font-weight: bold;
+}
+
+.unpaid {
+  color: red;
+  font-weight: bold;
+}
+
+/* No bookings message */
+.no-bookings {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #e74c3c;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+
+
+  .list-container {
+      grid-template-columns: 1fr;
+  }
+
+  .booking-item {
+      padding: 15px;
+  }
+
+  h1 {
+      font-size: 1.8rem;
+  }
+
+  h2 {
+      font-size: 1.4rem;
+  }
+
+  .booking-details p {
+      font-size: 0.9rem;
+  }
+
+
+}
+
+
+.all_items{
+  /* background: yellow; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-button{
+  align-items: center;
+  display: flex;
+  justify-content: end;
+}
+
+.card-button button{
+  background: red;
+    color: white;
+    padding: 7px;
+    cursor: pointer;
+    border-radius: 5px;
+}
