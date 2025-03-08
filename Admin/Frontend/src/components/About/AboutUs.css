@@ -1,0 +1,177 @@
+#aboutUs_Mini {
+    min-width: 1500px;
+    max-width: 1500px;
+    padding: 150px 20px;
+    display: flex;
+}
+
+#aboutUs_Mini .first_container,
+#aboutUs_Mini .second_container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+#aboutUs_Mini .first_container {
+    padding-right: 100px;
+}
+
+#aboutUs_Mini .first_container .content {
+    padding-right: 100px;
+}
+
+#aboutUs_Mini .first_container h1 {
+    text-align: start;
+}
+
+#aboutUs_Mini .first_container button {
+    border: none;
+    background: #111;
+    color: #ffffff;
+    padding: 12px;
+    margin-top: 25px;
+}
+
+#aboutUs_Mini .second_container {
+    position: relative;
+}
+
+#aboutUs_Mini .second_container .image_1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 360px;
+    width: 330px;
+    overflow: hidden;
+    border-bottom-left-radius: 60px;
+    background: ghostwhite;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    z-index: 1;
+}
+
+#aboutUs_Mini .second_container .image_1 img {
+    width: 100%;
+    height: 100%;
+}
+
+#aboutUs_Mini .second_container .image_2 {
+    position: absolute;
+    width: 450px;
+    height: 390px;
+    overflow: hidden;
+    right: 0;
+    bottom: 0;
+    border-top-right-radius: 60px;
+}
+
+#aboutUs_Mini .second_container .image_2 img {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 1520px) {
+    #aboutUs_Mini {
+        min-width: 100%;
+    }
+}
+
+@media (max-width: 1215px) {
+    #aboutUs_Mini .first_container {
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 1060px) {
+    #aboutUs_Mini .first_container .content {
+        padding-right: 30px;
+    }
+
+    #aboutUs_Mini .second_container .image_1 {
+        height: 320px;
+        width: 300px;
+    }
+
+    #aboutUs_Mini .second_container .image_2 {
+        width: 400px;
+        height: 370px;
+    }
+}
+
+@media (max-width: 1015px) {
+    #aboutUs_Mini {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #aboutUs_Mini .first_container,
+    #aboutUs_Mini .second_container {
+        width: 767px;
+        margin: 0 auto;
+    }
+
+    #aboutUs_Mini .first_container,
+    #aboutUs_Mini .first_container h1 {
+        text-align: center;
+    }
+
+    #aboutUs_Mini .second_container {
+        height: 670px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    #aboutUs_Mini .second_container .image_1,
+    #aboutUs_Mini .second_container .image_2 {
+        width: 400px;
+        height: 375px;
+    }
+}
+
+@media (max-width: 820px) {
+
+    #aboutUs_Mini .first_container,
+    #aboutUs_Mini .second_container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 545px) {
+    #aboutUs_Mini .second_container {
+        height: 520px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    #aboutUs_Mini .second_container .image_1,
+    #aboutUs_Mini .second_container .image_2 {
+        width: 280px;
+        height: 280px;
+    }
+}
+
+@media (max-width: 390px) {
+    #aboutUs_Mini .second_container {
+        height: 670px;
+    }
+
+    #aboutUs_Mini .second_container .image_1,
+    #aboutUs_Mini .second_container .image_2 {
+        width: 100%;
+        height: 320px;
+        margin-bottom: 15px;
+    }
+
+    #aboutUs_Mini .second_container .image_1 {
+        border-bottom-left-radius: 0;
+    }
+
+    #aboutUs_Mini .second_container .image_2 {
+        border-top-right-radius: 0;
+    }
+}
+
+
+.content p{
+    margin: 10px 0px;
+}

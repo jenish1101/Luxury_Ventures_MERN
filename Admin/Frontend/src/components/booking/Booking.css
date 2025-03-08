@@ -1,0 +1,111 @@
+/* Booking.css */
+
+.page {
+    padding: 100px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f8f8f8;
+    min-height: 100vh;
+    /* margin: 50px 0px; */
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.cards-container {
+    width: 100%;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.booking-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    transition: transform 0.2s ease-in-out;
+    margin: 20px 0px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.booking-card:hover {
+    transform: scale(1.05);
+}
+
+.card-header h2 {
+    font-size: 1.8rem;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.card-body p {
+    margin: 10px 0;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.card-body strong {
+    font-weight: bold;
+    color: #333;
+}
+
+.paid {
+    color: green;
+    font-weight: bold;
+}
+
+.unpaid {
+    color: red;
+    font-weight: bold;
+}
+
+.no-bookings {
+    font-size: 1.2rem;
+    color: #999;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .cards-container {
+        grid-template-columns: 1fr;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .booking-card {
+        max-width: 90%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .cards-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+.card-button{
+    width: 100%;
+}
+
+.card-button button{
+    background-color: red;
+}

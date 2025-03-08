@@ -1,0 +1,11 @@
+const express = require("express");
+const router = express.Router();
+
+// For Verify Admin Have AcessToken Or Not 
+const AdminVerifyAccessToken = require("../Middleware/auth");
+
+router.get("/", AdminVerifyAccessToken, async(req,res)=>{
+    return res.json({message:"About Router..."});
+})
+
+module.exports = router;
