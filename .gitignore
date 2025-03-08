@@ -1,0 +1,41 @@
+# Ignore node_modules
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Ignore environment config files
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Ignore logs and OS/system files
+logs/
+*.log
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Ignore editor and system files
+.vscode/
+.DS_Store
+Thumbs.db
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Ignore build and dependency files
+dist/
+build/
+coverage/
+*.cache
+*.lock
+
+# Ignore backend-specific files
+backend/config.env
+backend/.env
+backend/node_modules/
+backend/logs/
